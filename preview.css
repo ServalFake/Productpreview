@@ -1,0 +1,142 @@
+body{
+   background-color: #F3EBE4;
+}
+nav ul{
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+    display: flex;
+    margin-right: 115px;
+    
+}
+nav ul li{
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+}
+ #applebar{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    position: fixed;
+    float: right;
+    width: 350px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 20px;
+    padding: 5px 0 5px 0;
+ }
+#applelg{
+    left: 185px;
+    position: relative;
+    justify-content: center;
+    top: 0px;
+    z-index: 1;
+ }
+ #macad{
+    position: relative;
+    margin: 0 auto;
+    right: 400px;
+    border-radius: 20px 0 0 20px;
+
+ }
+ #macair1{
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+    top: 200px;
+    left: 380px;
+    justify-content: center;
+    
+    display: flex;
+    min-width: 200px;
+    overflow: hidden;
+    
+    width: 10%;
+ }
+#section-1{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 0;
+    
+   
+}
+
+
+#air15{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 250px;
+    top: 575px;
+    position: relative;
+    float: right;
+}
+#price{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 75px;
+    position: relative;
+    bottom: 20px;
+    
+}
+#strikethrough{
+    text-decoration: line-through;
+}
+#education{
+    left: 90px;
+    color: grey;
+    position: relative;
+    z-index: 1;
+    bottom: 20px;
+    
+    
+}
+#section-3{
+    position: fixed;
+    align-items: center;
+    display: flex;
+    top: 300px;
+    right: 50px;
+    margin: 0 auto;
+    z-index: 1;
+    
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    
+}
+#cart{
+    font-size: 15px;
+    height: 50px;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    right: 70px;   
+    padding-right: 50px;
+    width: 350px;
+    padding-left: 50px;
+    border-radius: 10px;
+    border-color: #F3EBE4;
+    background-color: #F3EBE4;
+}
+#big{
+    margin: 0%;
+    bottom: 200px;
+    position: relative;
+    left: 175px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
